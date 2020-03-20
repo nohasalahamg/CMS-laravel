@@ -54,9 +54,9 @@ Add New tag</a>
     <tr>
       <th scope="col">#</th>
       <th scope="col"> User Name</th>
-      <th scope="col"> Email</th>
-      <th scope="col">Role</th>
       <th scope="col"> Image</th>
+      <th scope="col">Role</th>
+      <th scope="col"> Role</th>
       
       <th scope="col">Action </th>
     </tr>
@@ -71,7 +71,7 @@ Add New tag</a>
         
         
         
-         asset('/storage/'.$use->getpicture() ) : $user->getavatar() }}"
+         asset('/storage/'.$use->getpicture() ) : $use->getavatar() }}"
       
       width="70px" height="70px"
       ></td>
